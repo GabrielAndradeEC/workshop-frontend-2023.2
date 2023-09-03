@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <link rel="shortcut icon" href="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/stormtrooper-icon-18-256.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logoheader">
+            <img src="https://dailycollegian.com/wp-content/uploads/2022/03/star.png" alt="logo star wars">
+        </div>
+        <div class="navheader">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#final">Final</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="home">
+        <div class="conteudo">
+            <div class="headerconteudo" id="inicio">
+                <h1>Início</h1>
+            </div>
+            <!--Botar padding no "início" faz com que o carrosel quebre, não soube como resolver este problema, por isso o texto etá colado com as imagens.-->
+        </div>
+        <div class="carroselhome" >
+            <div class="container" id="img">
+                <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/385C45162034D0D843A1DFE151986AA2C568643FD14A7B1FCE881F5393B24A56/scale?width=1200&aspectRatio=1.78&format=jpeg" alt="Poster Ameaça fantasma">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/3067/663067-h" alt="Poster Uma nova esperança">
+                <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/85BA7173BBB70BA7C7BD12EC06D40338915947B1996DA602F4D4A29001F1ED67/scale?width=1200&aspectRatio=1.78&format=jpeg" alt="Poster O despertar da força">
+            </div>
+        </div>    
+    </section>
+    <section class="historia">
+        <div class="conteudo">
+            <div class="headerconteudo">
+                <h1>A muito tempo, em uma galáxia muito,<br> muito distante...</h1>
+            </div>
+            <!--Ao invés de curiosidades, preferi inserir o resumo da trama-->
+            <div class="trama">
+                <p>Em uma galáxia muito distante, a saga de Star Wars se desenrola. Uma luta épica entre o bem e o mal, onde heróis destemidos como Luke Skywalker, Princesa Leia e Han Solo se unem para desafiar as forças implacáveis do Império Galáctico, liderado pelo sinistro Darth Vader. Uma história de redenção, família e a eterna batalha entre a luz e a escuridão. Em meio a batalhas espaciais espetaculares e uma rica mitologia, Star Wars conquistou corações e mentes por gerações, transportando-nos para um universo de aventuras inesquecíveis. Esta icônica franquia também explorou temas como amizade, heroísmo e a importância de fazer a escolha certa, tornando-se uma obra duradoura e inspiradora para fãs de todas as idades.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Não soube consumir a API-->
+    <section class="galeria" id="galeria">
+        <div class="headerconteudo">
+            <h1>Galeria de personagens</h1>
+        </div>
+        <div class="personagens">
+            <h1>Dados do Personagem:</h1>
+                <div class="dadospersonagem">
+                    <p>Nome:<span id="name"></span></p>
+                    <p>Gênero:<span id="gender"></span></p>
+                    <p>Ano de Nasc.:<span id="birth_year"></span></p>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <div class="conteudofooter" id="final">
+            <div class="logofooter">
+                <img src="https://lumiere-a.akamaihd.net/v1/images/sw_logo_stacked_2x-52b4f6d33087_7ef430af.png" alt="logo star wars">
+            </div>
+            <div class="redessociais">
+                <h3>Nossas Redes:</h3>
+                <br>
+                <div class="redesfooter">
+                    <nav>
+                        <ul>
+                            <li><a href="#"><img src="https://static-00.iconduck.com/assets.00/github-icon-256x249-7imgj54m.png" alt="logo github"></a></li>
+                            <li><a href="#"><img src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/linkedin-icon-18-256.png"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="copy">&copy Todos os direitos reservados</div>
+    </footer>
+</body>
+</html>

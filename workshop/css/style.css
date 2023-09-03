@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.home {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-bottom: 40px;
+    background-image: url(https://w0.peakpx.com/wallpaper/249/688/HD-wallpaper-night-sky-black-stars.jpg);
+}
+
+.historia {
+    background-image: url(https://w0.peakpx.com/wallpaper/249/688/HD-wallpaper-night-sky-black-stars.jpg);
+}
+
+.galeria{
+    background-image: url(https://w0.peakpx.com/wallpaper/249/688/HD-wallpaper-night-sky-black-stars.jpg);
+}
+
+/*gambiarra pra deixar o papel de parede do céu estrelado em todas as divs*/
+
+.home .carroselhome {
+    width: 850px;
+    height: 90%;
+    overflow: hidden;
+    box-shadow: 4px 4px 4px #555555;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.carroselhome .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headerconteudo {
+    color: #FFFF;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+.historia .headerconteudo{
+    color: cyan;
+    justify-items: center;
+}
+
+.conteudo .trama {
+    color: #F2BB13;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.galeria .personagens .dadospersonagem {
+    color: white;
+}
+
